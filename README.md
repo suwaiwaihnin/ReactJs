@@ -20,6 +20,6 @@
 - $ ./mvnw spring-boot:run
 
 - Postman　アプリに http://localhost:8080/products をアクセスするとデータが表示されます
-- http://localhost:8080/products/1 を GET　Method でアクサスするとの ID　のデータが表示されます
+- http://localhost:8080/products/1 を GET　Method でアクサスするとの ID のデータが表示されます
 - http://localhost:8080/products/1 を変更したいデータと　PUT Method でアクサスするとると前のデータは変更されます。
 - http://localhost:8080/products/1 を DELETE Method　でアクサスするとデータが削除します
