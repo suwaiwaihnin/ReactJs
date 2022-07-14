@@ -1,4 +1,4 @@
-どのようなアプリケーションか
+プロダクト課題　CRUD処理
 
 # 目標
 
@@ -15,12 +15,14 @@
 
 - $ git clone https://github.com/suwaiwaihnin/Spring-Boot.git
 
+- cd Spring-Boot
+
 - $ docker-compose up -d
 
 - $ ./mvnw spring-boot:run
 
  Postman　アプリに 
-- http://localhost:8080/products をアクセスするとデータが表示されます
-- http://localhost:8080/products/1 を GET　Method でアクサスするとの ID のデータが表示されます
-- http://localhost:8080/products/1 を変更したいデータと　PUT Method でアクサスするとると前のデータは変更されます。
-- http://localhost:8080/products/1 を DELETE Method　でアクサスするとデータが削除します
+- http://localhost:8080/products にアクセスするとデータが表示されます。
+- http://localhost:8080/products/1 を GET　Method でアクセスするとこの ID のデータが表示されます。
+- http://localhost:8080/products/1 を変更したいデータと　PUT Method でアクセスすると前のデータは変更されます。
+- http://localhost:8080/products/1 を DELETE Method　でアクセスするとデータが削除されます。
