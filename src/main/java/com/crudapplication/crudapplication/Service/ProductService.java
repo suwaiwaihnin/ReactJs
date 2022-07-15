@@ -1,12 +1,12 @@
-package com.CRUDApplication.crud_application.Service;
+package com.crudapplication.crudapplication.Service;
 
 import java.util.List;
 import javax.transaction.Transactional; 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.CRUDApplication.crud_application.Domain.Product;
-import com.CRUDApplication.crud_application.Repository.ProductRepository;
+import com.crudapplication.crudapplication.Domain.Product;
+import com.crudapplication.crudapplication.Repository.ProductRepository;
  
 @Service
 @Transactional

@@ -1,4 +1,4 @@
-package com.CRUDApplication.crud_application.Controller;
+package com.crudapplication.crudapplication.Controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.CRUDApplication.crud_application.Domain.Product;
+import com.crudapplication.crudapplication.Domain.Product;
 
 @ControllerAdvice
 public class ValidationHandler extends ResponseEntityExceptionHandler{
