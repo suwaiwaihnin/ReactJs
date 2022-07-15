@@ -1,4 +1,4 @@
-package com.crudapplication.crudapplication.Controller;
+package com.crudapplication.crudapplication.controller;
 
 import java.util.*;
 import javax.validation.Valid;
@@ -7,8 +7,8 @@ import org.springframework.http.*;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import com.crudapplication.crudapplication.Domain.Product;
-import com.crudapplication.crudapplication.Service.ProductService;
+import com.crudapplication.crudapplication.domain.Product;
+import com.crudapplication.crudapplication.service.ProductService;
 import com.fasterxml.jackson.annotation.JsonIgnore;
  
 @RestController
