@@ -1,9 +1,9 @@
-package com.CRUDApplication.CRUDApplication.Repository;
+package com.CRUDApplication.crud_application.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.CRUDApplication.CRUDApplication.Domain.Product;
+import com.CRUDApplication.crud_application.Domain.Product;
 
 
 
